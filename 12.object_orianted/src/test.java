@@ -6,7 +6,7 @@ public class test {
          
          car car1= new car();  // araba objesi oluştu...
          
-         car1.colour="blue";  // ğer private olsaydı hata  verirdi
+         car1.colour="blue";  // eğer private olsaydı hata  verirdi
          car1.door=4;
          car1.wheels=4;
          car1.engine="16v";
