@@ -28,7 +28,7 @@ public class Main {
         
         
         
-        exercise exe = new exercise(a, b, c);
+        Exercise exe = new Exercise(a, b, c);
         
         
         System.out.println("\nyour exercise is starting");
