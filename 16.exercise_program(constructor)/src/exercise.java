@@ -1,5 +1,5 @@
 
-public class exercise {
+public class Exercise {
     
     private int squat ;       //çömelmek
     private  int pushup;     // şınav
