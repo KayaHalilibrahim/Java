@@ -12,20 +12,7 @@ public class Developer extends Employee{
       this.languages=lang;
       
     }
-    public void formatname(String OS)   // OS işletim sistemi
-    {
-        System.out.println(getName() + " " + OS +" uploaded");
-    }
-    
-    public void showinfo( String language)
-    {
-        super.showinfo();
-        System.out.println("know languages: " + languages);
-        
-    }
-    
-    
-    
+  
     
     // **********************
     public String getLanguages() {
@@ -36,5 +23,18 @@ public class Developer extends Employee{
         this.languages = languages;
     }
     // **************************
+
+  public void formatname(String OS)   // OS işletim sistemi
+    {
+        System.out.println(getName() + " " + OS +" uploaded");
+    }
+    
+    public void showinfo( String language)
+    {
+        super.showinfo();
+        System.out.println("know languages: " + languages);
+        
+    }
+
     
 }
